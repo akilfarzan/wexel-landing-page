@@ -12,6 +12,7 @@ import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import CustomizationSection from '@/components/CustomizationSection';
+import DashboardSection from '@/components/DashboardSection';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Features />
       <Benefits />
       <CustomizationSection />
+      <DashboardSection />
       <Testimonials />
       <Pricing />
       <CTA />
