@@ -32,7 +32,7 @@ export default function Home() {
       <IntegrationsSection />
       <TransitionSection />
       <CustomerManagementSection />
-      <Benefits />
+
       <CTA />
       <Footer />
     </main>
@@ -40,3 +40,4 @@ export default function Home() {
 }
 
       <Pricing />
+      <Benefits />
