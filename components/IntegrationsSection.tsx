@@ -46,7 +46,7 @@ const integrationLogos = [
   },
   {
     name: 'QuickBooks',
-    src: 'https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/quickbooks.svg',
     alt: 'QuickBooks Integration'
   },
   {
