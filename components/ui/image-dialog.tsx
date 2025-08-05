@@ -1,5 +1,6 @@
 import React from 'react';
-import * as Dialog from '@radix-ui/react-dialog';
+import { Dialog, DialogContent, DialogTrigger, DialogTitle } from '@radix-ui/react-dialog';
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 import { X } from 'lucide-react';
 
 interface ImageDialogProps {
@@ -11,6 +12,9 @@ interface ImageDialogProps {
 export function ImageDialog({ src, alt, children }: ImageDialogProps) {
   return (
     <Dialog.Root>
+          <VisuallyHidden>
+            <DialogTitle>{alt}</DialogTitle>
+          </VisuallyHidden>
       <Dialog.Trigger asChild>
         {children}
       </Dialog.Trigger>
