@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "What if you don't have a software that I currently work with for integration options?",
-    answer: "Wexel's AI learns from your workshop patterns and automates routine tasks. It can automatically send pickup reminders, follow up on overdue invoices, predict maintenance needs based on vehicle history, and even handle basic customer inquiries via phone or SMS. The AI gets smarter over time, adapting to your specific business needs."
+    answer: "We will ensure that the current stack you work with is seamlessly integrated into your Wexel workshop. If there's an API, we can connect it"
   },
   {
     question: "Is my workshop data secure and backed up?",
