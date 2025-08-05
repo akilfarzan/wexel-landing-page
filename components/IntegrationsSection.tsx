@@ -52,7 +52,7 @@ const integrationLogos = [
   {
     name: 'HSY',
     src: '/hsy.png',
-    alt: 'PayPal Integration'
+    alt: 'HSY Integration'
   }
 ];
 
