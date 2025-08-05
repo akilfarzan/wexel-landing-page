@@ -18,7 +18,7 @@ const images = [
     overlay: 'Complete Vehicle History'
   },
   {
-    src: '/customer-management-3.jpg',
+    src: '/Customers 3.PNG',
     alt: 'Invoice tracking and payment status',
     overlay: 'Invoice & Payment Tracking'
   }
