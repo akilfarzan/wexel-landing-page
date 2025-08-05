@@ -109,7 +109,7 @@ export default function Hero() {
               size="lg" 
               className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-8 py-4 text-lg"
             >
-              30-Day Money Back Guaranteed!
+              30-Day Money Back
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 
