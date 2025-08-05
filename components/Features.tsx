@@ -47,7 +47,7 @@ const features = [
   {
     icon: MessageSquare,
     title: 'SMS Automation',
-    description: 'Instant Updates. Zero Chasing. Appointment reminders, job status, and pickup alerts sent via SMS automatically — no more missed calls or delays.',
+    description: 'Instant Updates. Zero Chasing. Reminders, job status, and pickup alerts sent via SMS automatically — no more missed calls or delays.',
     color: 'from-pink-500 to-pink-600'
   },
   {
