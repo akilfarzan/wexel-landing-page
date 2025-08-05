@@ -8,7 +8,7 @@ import { ImageDialog } from '@/components/ui/image-dialog';
 
 const images = [
   {
-    src: '/customer-management-1.jpg',
+    src: '/Customers 1.PNG',
     alt: 'Customer database with search functionality',
     overlay: 'Search & Filter Customers'
   },
