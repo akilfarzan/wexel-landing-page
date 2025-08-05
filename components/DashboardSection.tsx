@@ -2,7 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Search, Brain, DollarSign, FileText, Clock } from 'lucide-react';
+import { Search, Brain, DollarSign, FileText, Clock, Cursor } from 'lucide-react';
+import { ImageDialog } from '@/components/ui/image-dialog';
 
 export default function DashboardSection() {
   const [ref, inView] = useInView({
@@ -12,29 +13,24 @@ export default function DashboardSection() {
 
   const bulletPoints = [
     {
-      icon: Search,
+      icon: Search, 
       text: 'Live Stock Status – Instantly see what\'s in stock, what\'s low, and what needs to be reordered',
-      emoji: '🔍'
     },
     {
-      icon: Brain,
+      icon: Brain, 
       text: 'Smart Alerts – Get notified before you run out — so you never stall a job again',
-      emoji: '🧠'
     },
     {
-      icon: DollarSign,
+      icon: DollarSign, 
       text: 'Profit Visibility – Track margins on every part in real-time. Sell smarter. Buy smarter.',
-      emoji: '💸'
     },
     {
-      icon: FileText,
+      icon: FileText, 
       text: 'See Everything, Order Anything – See supplier, restock date, location, usage history at a glance, and re-order stock right from your Wexel app.',
-      emoji: '🗂'
     },
     {
-      icon: Clock,
+      icon: Clock, 
       text: 'Faster Workflows – Cut hours of admin each week with bulk edit, part search, and reorder tools',
-      emoji: '⏱'
     }
   ];
 
@@ -91,11 +87,23 @@ export default function DashboardSection() {
                 className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
               >
                 <div className="flex items-center space-x-2">
-                  <DollarSign className="w-4 h-4 text-green-600" />
-                  <span className="text-sm font-medium text-gray-700">Profit Tracking</span>
+            <ImageDialog
+              src="/Inventory tracking.PNG"
+              alt="Wexel Dashboard showing real-time analytics and stock management"
+            >
+              <div className="cursor-pointer group">
+                <img
+                  src="/Inventory tracking.PNG"
+                  alt="Wexel Dashboard showing real-time analytics and stock management"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
+                    <Cursor className="w-6 h-6 text-gray-700" />
+                  </div>
                 </div>
-              </motion.div>
-            </div>
+              </div>
+            </ImageDialog>
             
             {/* Italicized text below image */}
             <motion.p
@@ -138,7 +146,7 @@ export default function DashboardSection() {
                   transition={{ duration: 0.6, delay: 0.4 + (index * 0.1) }}
                   className="flex items-start space-x-4 group"
                 >
-                  <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-full group-hover:scale-110 transition-transform duration-300">
+                  <point.icon className="w-5 h-5 text-white" />
                     <span className="text-lg">{point.emoji}</span>
                   </div>
                   <div className="flex-1">
