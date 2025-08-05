@@ -157,7 +157,7 @@ export default function TransitionSection() {
                 className="flex items-center space-x-3 justify-center"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-full">
-                  <DollarSign className="w-5 h-5 text-white" />
+                  <DollarSign className="w-10 h-5 text-white" />
                 </div>
                 <span className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
                   You Cut Costs & Make More Profit!
