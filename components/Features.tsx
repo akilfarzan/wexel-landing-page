@@ -23,7 +23,7 @@ const features = [
   {
     icon: Users,
     title: 'Advanced Customer Management',
-    description: 'Every Customer’s History, at a Glance. See previous jobs, service notes, preferences, and communication logs. Know who’s coming in and what they’ll need — before they arrive.',
+    description: 'Every customer’s history, at a glance. See previous jobs, service notes, preferences, and communication logs. Know who’s coming in and what they’ll need — before they arrive.',
     color: 'from-purple-500 to-purple-600'
   },
   {
