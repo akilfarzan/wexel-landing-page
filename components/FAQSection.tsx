@@ -56,7 +56,7 @@ export default function FAQSection() {
   });
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="faq" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50 scroll-mt-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
