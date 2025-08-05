@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Search, Brain, DollarSign, FileText, Clock, Cursor } from 'lucide-react';
+import { Search, Brain, DollarSign, FileText, Clock, TextCursor as Cursor } from 'lucide-react';
 import { ImageDialog } from '@/components/ui/image-dialog';
 
 export default function DashboardSection() {
@@ -47,11 +47,23 @@ export default function DashboardSection() {
             className="relative"
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-              <img
+              <ImageDialog
                 src="/Inventory tracking.PNG"
                 alt="Wexel Dashboard showing real-time analytics and stock management"
-                className="w-full h-full object-cover"
-              />
+              >
+                <div className="cursor-pointer group">
+                  <img
+                    src="/Inventory tracking.PNG"
+                    alt="Wexel Dashboard showing real-time analytics and stock management"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
+                      <Cursor className="w-6 h-6 text-gray-700" />
+                    </div>
+                  </div>
+                </div>
+              </ImageDialog>
               
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent" />
@@ -87,23 +99,10 @@ export default function DashboardSection() {
                 className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
               >
                 <div className="flex items-center space-x-2">
-            <ImageDialog
-              src="/Inventory tracking.PNG"
-              alt="Wexel Dashboard showing real-time analytics and stock management"
-            >
-              <div className="cursor-pointer group">
-                <img
-                  src="/Inventory tracking.PNG"
-                  alt="Wexel Dashboard showing real-time analytics and stock management"
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
-                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
-                    <Cursor className="w-6 h-6 text-gray-700" />
-                  </div>
+                  <span className="text-sm font-medium text-gray-700">Live Updates</span>
                 </div>
-              </div>
-            </ImageDialog>
+              </motion.div>
+            </div>
             
             {/* Italicized text below image */}
             <motion.p
@@ -146,8 +145,8 @@ export default function DashboardSection() {
                   transition={{ duration: 0.6, delay: 0.4 + (index * 0.1) }}
                   className="flex items-start space-x-4 group"
                 >
-                  <point.icon className="w-5 h-5 text-white" />
-                    <span className="text-lg">{point.emoji}</span>
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                    <point.icon className="w-5 h-5 text-white" />
                   </div>
                   <div className="flex-1">
                     <p className="text-gray-700 leading-relaxed font-medium">
