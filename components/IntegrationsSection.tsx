@@ -16,7 +16,7 @@ const integrationLogos = [
   },
   {
     name: 'Haynes Pro',
-    src: 'public/haynesPro.png',
+    src: '/haynesPro.png',
     alt: 'Haynes Pro Integration'
   },
   {
