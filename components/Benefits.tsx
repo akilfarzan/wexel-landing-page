@@ -76,7 +76,7 @@ export default function Benefits() {
             className="text-center"
           >
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-xl mb-4">
-              <X className="w-8 h-8 text-white" />
+              <X className="w-8 h-20 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">BEFORE WEXEL</h3>
             <p className="text-gray-600">The daily struggle</p>
