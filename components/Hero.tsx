@@ -97,8 +97,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-            The most advanced workshop CRM software with AI-powered automations, 
-            seamless integrations, and intelligent analytics to boost your productivity by 300%.
+            Custom-built workshop software that runs like a tuned engine.
           </motion.p>
 
           {/* CTA Buttons */}
