@@ -88,7 +88,7 @@ export default function Hero() {
           >
             Your Workshop
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">
-              Just Got Smarter!
+              Just Got Faster, Smarter & More Automated!
             </span>
           </motion.h1>
 
