@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "What if you don't have a software that I currently work with for integration options?",
-    answer: "We will ensure that the current stack you work with is seamlessly integrated into your Wexel workshop. If there's an API, we can connect it"
+    answer: "We will ensure that the current stack you work with is seamlessly integrated into your Wexel workshop. If there's an API, we can connect it. No Stress!"
   },
   {
     question: "Is my workshop data secure and backed up?",
