@@ -51,7 +51,7 @@ const integrationLogos = [
   },
   {
     name: 'HSY',
-    src: '/hsy.png',
+    src: '/hsy.svg',
     alt: 'HSY Integration'
   }
 ];
