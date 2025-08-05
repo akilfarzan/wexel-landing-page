@@ -92,7 +92,7 @@ export default function IntegrationsSection() {
                 key={index}
                 className="flex-shrink-0 w-[200px] h-[100px] mr-8 group relative"
               >
-                <div className="h-full bg-none rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center justify-center p-4">
+                <div className="h-full bg-e rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center justify-center p-4">
                   <img
                     src={logo.src}
                     alt={logo.alt}
