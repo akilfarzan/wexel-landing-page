@@ -96,7 +96,7 @@ export default function IntegrationsSection() {
                   <img
                     src={logo.src}
                     alt={logo.alt}
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                    className="max-w-full max-h-full object-contain hover:grayscale-0 transition-all duration-300"
                   />
                   {/* Logo name overlay on hover */}
                   <div className="absolute inset-0 bg-black/80 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
