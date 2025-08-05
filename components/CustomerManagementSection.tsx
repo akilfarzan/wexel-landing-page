@@ -13,7 +13,7 @@ const images = [
     overlay: 'Search & Filter Customers'
   },
   {
-    src: '/customer-management-2.jpg', 
+    src: '/Customers 2.PNG', 
     alt: 'Vehicle history and service records',
     overlay: 'Complete Vehicle History'
   },
