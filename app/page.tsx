@@ -11,6 +11,7 @@ import Pricing from '@/components/Pricing';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import MissionStatement from '@/components/MissionStatement';
 import CustomizationSection from '@/components/CustomizationSection';
 import DashboardSection from '@/components/DashboardSection';
 
@@ -19,6 +20,7 @@ export default function Home() {
     <main className="relative overflow-hidden">
       <Navbar />
       <Hero />
+      <MissionStatement />
       <Features />
       <Benefits />
       <CustomizationSection />
