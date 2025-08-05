@@ -97,7 +97,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-            Custom-built workshop software that runs like a tuned engine.
+           The most advanced, custom-built workshop software that runs like a tuned engine.
           </motion.p>
 
           {/* CTA Buttons */}
