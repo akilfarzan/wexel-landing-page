@@ -34,6 +34,7 @@ export default function Home() {
       <TransitionSection />
       <CustomerManagementSection />
 
+      <ProcessFlowSection />
       <FAQSection />
       <CTA />
       <Footer />
