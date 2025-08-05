@@ -41,7 +41,7 @@ const features = [
   {
     icon: Mail,
     title: 'Email Integration',
-    description: 'No More Manual Emails. Receipts, job updates, and reminders go out like clockwork. Stay professional — without lifting a finger.',
+    description: 'No more manual emails. Receipts, job updates, and reminders go out like clockwork. Stay professional — without lifting a finger.',
     color: 'from-green-500 to-green-600'
   },
   {
