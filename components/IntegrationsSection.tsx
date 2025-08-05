@@ -36,7 +36,7 @@ const integrationLogos = [
   },
   {
     name: 'VV Garage',
-    src: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/vvgarage.png',
     alt: 'SMS Gateway Integration'
   },
   {
