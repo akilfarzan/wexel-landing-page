@@ -57,51 +57,52 @@ export default function DashboardSection() {
                     alt="Wexel Dashboard showing real-time analytics and stock management"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
+                  {/* Overlay gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent" />
+                  
+                  {/* Hover overlay */}
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
                       <TextCursor className="w-6 h-6 text-gray-700" />
                     </div>
                   </div>
+                  
+                  {/* Floating elements */}
+                  <motion.div
+                    animate={{
+                      y: [0, -10, 0],
+                    }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                    className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
+                  >
+                    <div className="flex items-center space-x-2">
+                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                      <span className="text-sm font-medium text-gray-700">Real-time Data</span>
+                    </div>
+                  </motion.div>
+                  
+                  <motion.div
+                    animate={{
+                      y: [0, 10, 0],
+                    }}
+                    transition={{
+                      duration: 4,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                      delay: 1
+                    }}
+                    className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
+                  >
+                    <div className="flex items-center space-x-2">
+                      <span className="text-sm font-medium text-gray-700">Live Updates</span>
+                    </div>
+                  </motion.div>
                 </div>
               </ImageDialog>
-              
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent" />
-              
-              {/* Floating elements */}
-              <motion.div
-                animate={{
-                  y: [0, -10, 0],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-                className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
-              >
-                <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm font-medium text-gray-700">Real-time Data</span>
-                </div>
-              </motion.div>
-              
-              <motion.div
-                animate={{
-                  y: [0, 10, 0],
-                }}
-                transition={{
-                  duration: 4,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                  delay: 1
-                }}
-                className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
-              >
-                <div className="flex items-center space-x-2">
-                  <span className="text-sm font-medium text-gray-700">Live Updates</span>
-                </div>
-              </motion.div>
             </div>
             
             {/* Italicized text below image */}

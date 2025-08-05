@@ -113,52 +113,53 @@ export default function CustomizationSection() {
                     alt="Modern workshop with advanced technology and tools"
                     className="w-full h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
                   />
+                  {/* Overlay gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent" />
+                  
+                  {/* Hover overlay */}
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
                       <Cursor className="w-6 h-6 text-gray-700" />
                     </div>
                   </div>
+                  
+                  {/* Floating elements */}
+                  <motion.div
+                    animate={{
+                      y: [0, -10, 0],
+                    }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                    className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
+                  >
+                    <div className="flex items-center space-x-2">
+                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                      <span className="text-sm font-medium text-gray-700">Live Updates</span>
+                    </div>
+                  </motion.div>
+                  
+                  <motion.div
+                    animate={{
+                      y: [0, 10, 0],
+                    }}
+                    transition={{
+                      duration: 4,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                      delay: 1
+                    }}
+                    className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
+                  >
+                    <div className="flex items-center space-x-2">
+                      <Settings className="w-4 h-4 text-blue-600" />
+                      <span className="text-sm font-medium text-gray-700">Custom Workflows</span>
+                    </div>
+                  </motion.div>
                 </div>
               </ImageDialog>
-              
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent" />
-              
-              {/* Floating elements */}
-              <motion.div
-                animate={{
-                  y: [0, -10, 0],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-                className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
-              >
-                <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm font-medium text-gray-700">Live Updates</span>
-                </div>
-              </motion.div>
-              
-              <motion.div
-                animate={{
-                  y: [0, 10, 0],
-                }}
-                transition={{
-                  duration: 4,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                  delay: 1
-                }}
-                className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg"
-              >
-                <div className="flex items-center space-x-2">
-                  <Settings className="w-4 h-4 text-blue-600" />
-                  <span className="text-sm font-medium text-gray-700">Custom Workflows</span>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>
