@@ -13,7 +13,7 @@ import {
 const faqs = [
   {
     question: "Considering it's completely customised, do I have to pay a build cost?",
-    answer: "No, there’s no separate build fee. Because Wexel is fully customised to match your workshop — from job card logic and workflows to AI automations and integrations — we do require the first month’s subscription fee ($159.99/month + GST) to be paid upfront. However, billing doesn’t begin until your system is fully built and you’re 100% happy with it. You’re not just getting access to a generic platform — you’re getting a tailored system, built around how your workshop actually operates, and powered by advanced automation and backend processing. No setup fee. No hidden costs. Just a custom-built system that fits your business like a glove — and is fully maintained for you."
+    answer: "No, there’s no separate build fee. Because Wexel is fully customised to match your workshop — from job card logic and workflows to AI automations and integrations — we do require the first month’s subscription fee ($159.99/month + GST) to be paid upfront. However, billing doesn’t begin until your system is fully built and you’re 100% happy with it. You’re not just getting access to a generic platform — you’re getting a tailored system, built around how your workshop actually operates, and powered by advanced automation and backend processing."
   },
   {
     question: "How many times can I customise this workshop?",
