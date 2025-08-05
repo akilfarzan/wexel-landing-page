@@ -50,8 +50,8 @@ const integrationLogos = [
     alt: 'QuickBooks Integration'
   },
   {
-    name: 'PayPal',
-    src: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    name: 'HSY',
+    src: '/hsy.png',
     alt: 'PayPal Integration'
   }
 ];
