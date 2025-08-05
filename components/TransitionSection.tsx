@@ -108,7 +108,7 @@ export default function TransitionSection() {
             variants={animatedTextVariants}
             className="relative mb-16 px-4"
           >
-            <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 bg-white/10 backdrop-blur-sm rounded-2xl px-4 sm:px-8 py-6 border border-white/20">
+            <div className="flex flex-col sm:justify-between sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 bg-white/10 backdrop-blur-sm rounded-2xl px-4 sm:px-8 py-6 border border-white/20">
               <motion.div
                 animate={{
                   scale: [1, 1.1, 1],
