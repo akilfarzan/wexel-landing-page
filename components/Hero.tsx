@@ -84,7 +84,7 @@ export default function Hero() {
           {/* Main Headline */}
           <motion.h1 
             variants={itemVariants}
-            className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight"
+            className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight"
           >
             Your Workshop
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">
@@ -95,7 +95,7 @@ export default function Hero() {
           {/* Subheadline */}
           <motion.p 
             variants={itemVariants}
-            className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed px-4"
           >
            The most advanced, custom-built, AI powered workshop software that runs like a fine tuned engine.
           </motion.p>
@@ -103,11 +103,11 @@ export default function Hero() {
           {/* CTA Buttons */}
           <motion.div 
             variants={itemVariants}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 px-4"
           >
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-8 py-4 text-lg"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-6 sm:px-8 py-4 text-base sm:text-lg w-full sm:w-auto"
             >
               30-Day Money Back Guaranteed!
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -115,7 +115,7 @@ export default function Hero() {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg"
+              className="border-gray-300 text-gray-700 hover:bg-gray-50 px-6 sm:px-8 py-4 text-base sm:text-lg w-full sm:w-auto"
             >
               <Play className="mr-2 w-5 h-5" />
               Start Today!
@@ -125,28 +125,28 @@ export default function Hero() {
           {/* Social Proof Stats */}
           <motion.div 
             variants={itemVariants}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto"
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-2xl mx-auto px-4"
           >
             <div className="flex flex-col items-center">
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mb-2">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">AI Powered</div>
-              <div className="text-sm text-gray-600">Workflows, Reporting, Insight, Reminders and more!</div>
+              <div className="text-xl sm:text-2xl font-bold text-gray-900 text-center">AI Powered</div>
+              <div className="text-sm text-gray-600 text-center">Workflows, Reporting, Insight, Reminders and more!</div>
             </div>
             <div className="flex flex-col items-center">
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full mb-2">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">10x Faster Admin</div>
-              <div className="text-sm text-gray-600">Inventory, bookings, invoices — all automated.</div>
+              <div className="text-xl sm:text-2xl font-bold text-gray-900 text-center">10x Faster Admin</div>
+              <div className="text-sm text-gray-600 text-center">Inventory, bookings, invoices — all automated.</div>
             </div>
             <div className="flex flex-col items-center">
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-full mb-2">
                 <Shield className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">Zero Headaches</div>
-              <div className="text-sm text-gray-600">Everything is tracked. Nothing gets lost. No more late nights.</div>
+              <div className="text-xl sm:text-2xl font-bold text-gray-900 text-center">Zero Headaches</div>
+              <div className="text-sm text-gray-600 text-center">Everything is tracked. Nothing gets lost. No more late nights.</div>
             </div>
           </motion.div>
         </motion.div>

@@ -86,7 +86,7 @@ export default function TransitionSection() {
           {/* Main Headline */}
           <motion.h2 
             variants={itemVariants}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight px-4"
           >
             Built With Real Workshops.
             <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
@@ -97,7 +97,7 @@ export default function TransitionSection() {
           {/* Subheadline */}
           <motion.p 
             variants={itemVariants}
-            className="text-xl md:text-2xl text-blue-100 leading-relaxed max-w-4xl mx-auto mb-12"
+            className="text-lg sm:text-xl md:text-2xl text-blue-100 leading-relaxed max-w-4xl mx-auto mb-12 px-4"
           >
             Wexel was built side-by-side with Aussie mechanics to fix the exact problems 
             they deal with every day — from tracking jobs to chasing invoices and managing parts.
@@ -106,9 +106,9 @@ export default function TransitionSection() {
           {/* Animated Phrase */}
           <motion.div
             variants={animatedTextVariants}
-            className="relative mb-16"
+            className="relative mb-16 px-4"
           >
-            <div className="inline-flex items-center space-x-4 bg-white/10 backdrop-blur-sm rounded-2xl px-8 py-6 border border-white/20">
+            <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 bg-white/10 backdrop-blur-sm rounded-2xl px-4 sm:px-8 py-6 border border-white/20">
               <motion.div
                 animate={{
                   scale: [1, 1.1, 1],
@@ -118,12 +118,12 @@ export default function TransitionSection() {
                   repeat: Infinity,
                   ease: "easeInOut"
                 }}
-                className="flex items-center space-x-2"
+                className="flex items-center space-x-2 justify-center"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full">
                   <Users className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-2xl md:text-3xl font-bold text-white">We Listen,</span>
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold text-white">We Listen,</span>
               </motion.div>
               
               <motion.div
@@ -136,12 +136,12 @@ export default function TransitionSection() {
                   ease: "easeInOut",
                   delay: 0.7
                 }}
-                className="flex items-center space-x-2"
+                className="flex items-center space-x-2 justify-center"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full">
                   <Wrench className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-2xl md:text-3xl font-bold text-white">We Build,</span>
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold text-white">We Build,</span>
               </motion.div>
               
               <motion.div
@@ -154,12 +154,12 @@ export default function TransitionSection() {
                   ease: "easeInOut",
                   delay: 1.4
                 }}
-                className="flex items-center space-x-2"
+                className="flex items-center space-x-2 justify-center"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-full">
                   <DollarSign className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
                   You Make Money!
                 </span>
               </motion.div>
@@ -169,13 +169,13 @@ export default function TransitionSection() {
           {/* Supporting Elements */}
           <motion.div 
             variants={itemVariants}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto px-4"
           >
             <div className="flex flex-col items-center text-center">
               <div className="flex items-center justify-center w-16 h-16 bg-white/10 rounded-xl mb-4">
                 <Users className="w-8 h-8 text-orange-400" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Real Feedback</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Real Feedback</h3>
               <p className="text-blue-200">Built with actual workshop owners</p>
             </div>
             
@@ -183,7 +183,7 @@ export default function TransitionSection() {
               <div className="flex items-center justify-center w-16 h-16 bg-white/10 rounded-xl mb-4">
                 <Wrench className="w-8 h-8 text-orange-400" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Real Solutions</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Real Solutions</h3>
               <p className="text-blue-200">Solving actual daily problems</p>
             </div>
             
@@ -191,7 +191,7 @@ export default function TransitionSection() {
               <div className="flex items-center justify-center w-16 h-16 bg-white/10 rounded-xl mb-4">
                 <DollarSign className="w-8 h-8 text-orange-400" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Real Results</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Real Results</h3>
               <p className="text-blue-200">Proven revenue growth</p>
             </div>
           </motion.div>

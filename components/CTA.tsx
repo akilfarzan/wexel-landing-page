@@ -56,22 +56,22 @@ export default function CTA() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 px-4">
             Transform Your Workshop Into
             <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
               A Profit Machine
             </span>
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
+          <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-8 px-4">
             Stop losing money on admin work, missed calls, and disorganized workflows. 
             Let Wexel's AI handle the boring stuff while you focus on what you do best.
           </p>
           
-          <div className="flex justify-center items-center mb-12">
+          <div className="flex justify-center items-center mb-12 px-4">
             <Button 
               onClick={() => setIsContactFormOpen(true)}
               size="lg" 
-              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-12 py-6 text-xl font-bold"
+              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-8 sm:px-12 py-6 text-lg sm:text-xl font-bold w-full sm:w-auto max-w-sm sm:max-w-none"
             >
               <Wrench className="mr-3 w-6 h-6" />
               Build Your Wexel Workshop Now
@@ -79,7 +79,7 @@ export default function CTA() {
           </div>
 
           {/* Trust Elements */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-2xl mx-auto px-4">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -89,7 +89,7 @@ export default function CTA() {
               <div className="flex items-center justify-center w-12 h-12 bg-white/10 rounded-full mb-3">
                 <Smartphone className="w-6 h-6 text-orange-400" />
               </div>
-              <div className="text-white font-semibold">Mobile Ready</div>
+              <div className="text-white font-semibold text-center">Mobile Ready</div>
               <div className="text-sm text-blue-200">iOS & Android Apps</div>
             </motion.div>
             
@@ -102,7 +102,7 @@ export default function CTA() {
               <div className="flex items-center justify-center w-12 h-12 bg-white/10 rounded-full mb-3">
                 <Shield className="w-6 h-6 text-orange-400" />
               </div>
-              <div className="text-white font-semibold">Bank-Level Security</div>
+              <div className="text-white font-semibold text-center">Bank-Level Security</div>
               <div className="text-sm text-blue-200">256-bit Encryption</div>
             </motion.div>
             
@@ -115,7 +115,7 @@ export default function CTA() {
               <div className="flex items-center justify-center w-12 h-12 bg-white/10 rounded-full mb-3">
                 <Headphones className="w-6 h-6 text-orange-400" />
               </div>
-              <div className="text-white font-semibold">24/7 Support</div>
+              <div className="text-white font-semibold text-center">24/7 Support</div>
               <div className="text-sm text-blue-200">Expert Help Always</div>
             </motion.div>
           </div>
