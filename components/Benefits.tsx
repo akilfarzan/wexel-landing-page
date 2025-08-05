@@ -130,7 +130,7 @@ export default function Benefits() {
                       <Check className="w-4 h-4 text-green-600" />
                     </div>
                     <div className="flex-1">
-                      <p className="text-gray-700 font-medium leading-relaxed">
+                      <p className="text-sm sm:text-base text-gray-700 font-medium leading-relaxed">
                         {scenario.after}
                       </p>
                     </div>
