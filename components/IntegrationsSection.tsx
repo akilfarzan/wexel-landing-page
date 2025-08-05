@@ -75,7 +75,7 @@ export default function IntegrationsSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Works Seamlessly With the
             <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Tools You Already Use
+              Tools You Work With
             </span>
           </h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto italic">
