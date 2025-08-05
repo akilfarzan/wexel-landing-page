@@ -145,7 +145,7 @@ export default function Hero() {
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-full mb-2">
                 <Shield className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">Zero Backlog</div>
+              <div className="text-2xl font-bold text-gray-900">Zero Headaches</div>
               <div className="text-sm text-gray-600">No more chasing lost jobs or missing records.</div>
             </div>
           </motion.div>
