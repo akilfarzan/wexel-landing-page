@@ -41,7 +41,7 @@ const features = [
   {
     icon: Mail,
     title: 'Email Integration',
-    description: 'Seamless email campaigns, automated receipts, and customer communications directly from your CRM.',
+    description: 'No More Manual Emails. Receipts, job updates, and reminders go out like clockwork. Stay professional — without lifting a finger.',
     color: 'from-green-500 to-green-600'
   },
   {
