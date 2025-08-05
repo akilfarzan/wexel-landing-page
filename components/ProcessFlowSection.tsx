@@ -22,7 +22,7 @@ const processSteps = [
   {
     number: '03',
     icon: Truck,
-    title: 'Delivery Within 72-120hrs',
+    title: 'Delivery Within 72-120Hrs',
     description: 'We Final product delivered and ready for your review',
     color: 'from-orange-500 to-orange-600'
   },
