@@ -154,7 +154,7 @@ export default function TransitionSection() {
                   ease: "easeInOut",
                   delay: 1.4
                 }}
-                className="flex items-center space-x-5 justify-center"
+                className="flex items-center space-x-3 justify-center"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-full">
                   <DollarSign className="w-5 h-5 text-white" />
