@@ -90,7 +90,7 @@ export default function TransitionSection() {
           >
             Built With Real Workshops.
             <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
-              Designed For Yours.
+              Customised For Yours.
             </span>
           </motion.h2>
 
