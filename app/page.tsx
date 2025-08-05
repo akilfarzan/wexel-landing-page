@@ -14,6 +14,7 @@ import Navbar from '@/components/Navbar';
 import MissionStatement from '@/components/MissionStatement';
 import CustomizationSection from '@/components/CustomizationSection';
 import DashboardSection from '@/components/DashboardSection';
+import JobManagementSection from '@/components/JobManagementSection';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Features />
       <Benefits />
       <CustomizationSection />
+      <JobManagementSection />
       <DashboardSection />
       <Testimonials />
       <Pricing />
