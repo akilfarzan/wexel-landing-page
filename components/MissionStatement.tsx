@@ -56,7 +56,7 @@ export default function MissionStatement() {
             variants={itemVariants}
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight max-w-4xl mx-auto"
           >
-            We believe every workshop owner deserves to 
+         Every workshop owner deserves to 
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">
               work ON their business, not just IN it.
             </span>
