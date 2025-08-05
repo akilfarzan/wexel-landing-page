@@ -103,7 +103,7 @@ export default function CustomizationSection() {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="Wexel solution.png"
+                src="/Wexel solution.png"
                 alt="Modern workshop with advanced technology and tools"
                 className="w-full h-[500px] object-cover"
               />
