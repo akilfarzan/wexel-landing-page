@@ -21,7 +21,7 @@ const integrationLogos = [
   },
   {
     name: 'Repco',
-    src: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/repco.png',
     alt: 'Repco Parts Integration'
   },
   {
