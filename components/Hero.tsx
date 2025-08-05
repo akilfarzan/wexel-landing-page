@@ -131,7 +131,7 @@ export default function Hero() {
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mb-2">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">10,000+</div>
+              <div className="text-2xl font-bold text-gray-900">AI Powered</div>
               <div className="text-sm text-gray-600">Active Workshops</div>
             </div>
             <div className="flex flex-col items-center">
