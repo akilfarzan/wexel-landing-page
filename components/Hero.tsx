@@ -86,9 +86,9 @@ export default function Hero() {
             variants={itemVariants}
             className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight"
           >
-            Transform Your
+            Your Job Cards
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">
-              Workshop Operations
+              Just Got Smarter!
             </span>
           </motion.h1>
 
