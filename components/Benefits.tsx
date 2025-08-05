@@ -92,7 +92,7 @@ export default function Benefits() {
               <Check className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">AFTER WEXEL</h3>
-            <p className="text-gray-600">Your dream workshop</p>
+            <p className="text-gray-600">Your Wexel workshop</p>
           </motion.div>
         </div>
 
