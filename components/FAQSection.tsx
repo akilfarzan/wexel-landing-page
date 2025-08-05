@@ -12,8 +12,8 @@ import {
 
 const faqs = [
   {
-    question: "How quickly can I get started with Wexel?",
-    answer: "You can be up and running with Wexel in under 30 minutes. Our onboarding process is designed to be simple and intuitive. We'll help you import your existing customer data, set up your workflow preferences, and train your team. Most workshops are fully operational within their first day."
+    question: "Considering it's completely customised, do I have to build this?",
+    answer: "There is NO build fee for your Wexel workshop software. We are the only software business in Australia that custom creates a complete workshop software for their customers. We work on a subscription basis of $159.99/month + GST. Unlike other workshop softwares, we completely customise the logic, workflows, automations and most importantly AI integration into our softwares."
   },
   {
     question: "Will Wexel integrate with my existing accounting software?",
