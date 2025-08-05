@@ -17,7 +17,7 @@ const features = [
   {
     icon: ClipboardList,
     title: 'Smart Job Card Management',
-    description: 'Never Lose Track of a Job Again. Snap photos, add notes, and track every job in real time — all from your phone or PC. Your whole team stays in sync, start to finish.',
+    description: 'Never lose track of a job again. Snap photos, add notes, and track every job in real time — all from your phone or PC. Your whole team stays in sync, start to finish.',
     color: 'from-blue-500 to-blue-600'
   },
   {
