@@ -160,7 +160,7 @@ export default function TransitionSection() {
                   <DollarSign className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                  You Make Money!
+                  You Cut Costs & Make More Profit!
                 </span>
               </motion.div>
             </div>
