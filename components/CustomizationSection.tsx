@@ -109,7 +109,7 @@ export default function CustomizationSection() {
               >
                 <div className="cursor-pointer group">
                   <img
-                    src="/Wex solution.png"
+                    src="/wex solution.png"
                     alt="Wexel customizable workshop solution interface"
                     className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
                   />
