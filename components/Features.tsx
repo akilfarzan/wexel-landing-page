@@ -53,7 +53,7 @@ const features = [
   {
     icon: FileText,
     title: 'Invoice & Billing',
-    description: 'Professional invoicing with multiple payment gateways, recurring billing, and automated payment reminders.',
+    description: 'Get Paid Faster, With Less Fuss. Auto-generate invoices from job cards, integrate with Xero or MYOB, and get reminders sent automatically.',
     color: 'from-indigo-500 to-indigo-600'
   },
   {
