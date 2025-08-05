@@ -138,7 +138,7 @@ export default function Hero() {
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full mb-2">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">10x Faster Admin — Seriously</div>
+              <div className="text-2xl font-bold text-gray-900">10x Faster Admin</div>
               <div className="text-sm text-gray-600">Faster Admin</div>
             </div>
             <div className="flex flex-col items-center">
