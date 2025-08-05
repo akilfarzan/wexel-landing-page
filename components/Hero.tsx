@@ -146,7 +146,7 @@ export default function Hero() {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <div className="text-2xl font-bold text-gray-900">Zero Paperwork Backlog</div>
-              <div className="text-sm text-gray-600">Paperwork Backlog</div>
+              <div className="text-sm text-gray-600">No more chasing lost jobs or missing records.</div>
             </div>
           </motion.div>
         </motion.div>
