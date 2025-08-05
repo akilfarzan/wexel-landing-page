@@ -17,7 +17,7 @@ import {
   Brain
 } from 'lucide-react';
 
-const features = [
+const featuresRow1 = [
   {
     icon: ClipboardList,
     title: 'Smart Job Card Management',
@@ -53,7 +53,10 @@ const features = [
     title: 'SMS Automation',
     description: 'Instant updates. Zero chasing. Reminders, job status, and pickup alerts sent via SMS automatically — no more missed calls or delays.',
     color: 'from-pink-500 to-pink-600'
-  },
+  }
+];
+
+const featuresRow2 = [
   {
     icon: FileText,
     title: 'Invoice & Billing',
@@ -120,28 +123,52 @@ export default function Features() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group relative"
-            >
-              <div className="h-full p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-                <div className={`inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br ${feature.color} rounded-xl mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                  <feature.icon className="w-6 h-6 text-white" />
+        {/* First Row - Scrolling Left */}
+        <div className="relative w-full overflow-hidden py-4">
+          <div className="flex w-max animate-scroll-left">
+            {[...featuresRow1, ...featuresRow1].map((feature, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-[350px] mr-8 group relative"
+              >
+                <div className="h-full p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                  <div className={`inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br ${feature.color} rounded-xl mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <feature.icon className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    {feature.title}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    {feature.description}
+                  </p>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {feature.description}
-                </p>
               </div>
-            </motion.div>
-          ))}
+            ))}
+          </div>
+        </div>
+
+        {/* Second Row - Scrolling Right */}
+        <div className="relative w-full overflow-hidden py-4">
+          <div className="flex w-max animate-scroll-right">
+            {[...featuresRow2, ...featuresRow2].map((feature, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-[350px] mr-8 group relative"
+              >
+                <div className="h-full p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                  <div className={`inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br ${feature.color} rounded-xl mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <feature.icon className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    {feature.title}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
