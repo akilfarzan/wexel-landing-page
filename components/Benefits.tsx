@@ -97,7 +97,7 @@ export default function Benefits() {
         </div>
 
         {/* Before vs After Scenarios */}
-        <div className="space-y-20">
+        <div className="space-y-5">
           {scenarios.map((scenario, index) => (
             <motion.div
               key={index}
