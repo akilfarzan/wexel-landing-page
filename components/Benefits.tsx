@@ -108,7 +108,7 @@ export default function Benefits() {
             >
               {/* Before */}
               <div className="group relative">
-                <div className="h-full p-6 bg-white rounded-2xl shadow-lg border-2 border-red-100 hover:shadow-xl transition-all duration-300 hover:border-red-200">
+                <div className="h-full p-4 sm:p-6 bg-white rounded-2xl shadow-lg border-2 border-red-100 hover:shadow-xl transition-all duration-300 hover:border-red-200">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0 inline-flex items-center justify-center w-8 h-8 bg-red-100 rounded-full">
                       <X className="w-4 h-4 text-red-600" />
