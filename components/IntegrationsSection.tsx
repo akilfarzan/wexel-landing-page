@@ -15,7 +15,7 @@ const integrationLogos = [
     alt: 'MYOB Accounting Integration'
   },
   {
-    name: 'Stripe',
+    name: 'Haynes Pro',
     src: 'https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
     alt: 'Stripe Payment Integration'
   },
