@@ -52,7 +52,7 @@ export default function DashboardSection() {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="/Wexel solution.png"
+                src="/Inventory tracking.PNG"
                 alt="Wexel Dashboard showing real-time analytics and stock management"
                 className="w-full h-[500px] object-cover"
               />
