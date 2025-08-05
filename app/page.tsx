@@ -18,6 +18,7 @@ import JobManagementSection from '@/components/JobManagementSection';
 import IntegrationsSection from '@/components/IntegrationsSection';
 import CustomerManagementSection from '@/components/CustomerManagementSection';
 import FAQSection from '@/components/FAQSection';
+import ProcessFlowSection from '@/components/ProcessFlowSection';
 
 export default function Home() {
   return (
@@ -41,6 +42,3 @@ export default function Home() {
     </main>
   );
 }
-
-      <Pricing />
-      <Benefits />
