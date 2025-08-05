@@ -98,6 +98,7 @@ export default function Hero() {
             className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
           >
            The most advanced, custom-built workshop software that runs like a tuned engine.
+            Built for mechanics. Powered by AI. Ready to boost your profits —
           </motion.p>
 
           {/* CTA Buttons */}
