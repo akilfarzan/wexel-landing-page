@@ -11,7 +11,7 @@ const integrationLogos = [
   },
   {
     name: 'MYOB',
-    src: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/myob-2.svg',
     alt: 'MYOB Accounting Integration'
   },
   {
