@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 const integrationLogos = [
   {
     name: 'Xero',
-    src: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/xero.svg',
     alt: 'Xero Accounting Integration'
   },
   {
