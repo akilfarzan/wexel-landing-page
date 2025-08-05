@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: "What makes Wexel different from other workshop softwares?",
-    answer: "We will ensure that the current stack you work with is seamlessly integrated into your Wexel workshop. If there's an API, we can connect it. No Stress!"
+    answer: "As we mentioned before, we are Australia First and ONLY workshop software that is completely customised to your business and workshop flow, + have AI integrated into it. From reporting, to analysis, to predictive analysis, to quoting, our AI can do all that and more!"
   },
   {
     question: "Is my workshop data secure and backed up?",
