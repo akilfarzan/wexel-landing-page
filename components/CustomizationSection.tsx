@@ -4,7 +4,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Settings, Wrench, Users, Cursor } from 'lucide-react';
+import { Settings, Wrench, Users, TextCursor as Cursor } from 'lucide-react';
 import { ImageDialog } from '@/components/ui/image-dialog';
 
 const subheadings = [
