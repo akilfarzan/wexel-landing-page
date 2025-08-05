@@ -38,56 +38,12 @@ export default function DashboardSection() {
     <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Text Content */}
-          <motion.div
-            ref={ref}
-            initial={{ opacity: 0, x: 30 }}
-            animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="space-y-8"
-          >
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Speed. Precision. Profit.
-                <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  — All in One Dashboard.
-                </span>
-              </h2>
-              
-              <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                Real-time tracking, margin clarity, and smart stock alerts that make your workshop leaner, faster, and more profitable.
-              </p>
-            </div>
-
-            {/* Bullet Points */}
-            <div className="space-y-6">
-              {bulletPoints.map((point, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
-                  transition={{ duration: 0.6, delay: 0.4 + (index * 0.1) }}
-                  className="flex items-start space-x-4 group"
-                >
-                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                    <point.icon className="w-5 h-5 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-gray-700 leading-relaxed font-medium">
-                      {point.text}
-                    </p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-
           {/* Image Section */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.6 }}
-            className="relative"
+            className="relative order-last lg:order-first"
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <ImageDialog
@@ -157,6 +113,50 @@ export default function DashboardSection() {
             >
               💥 It's like having your stock controller, purchasing assistant, and bookkeeper — all rolled into one.
             </motion.p>
+          </motion.div>
+
+          {/* Text Content */}
+          <motion.div
+            ref={ref}
+            initial={{ opacity: 0, x: 30 }}
+            animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="space-y-8 order-first lg:order-last"
+          >
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                Speed. Precision. Profit.
+                <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  — All in One Dashboard.
+                </span>
+              </h2>
+              
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Real-time tracking, margin clarity, and smart stock alerts that make your workshop leaner, faster, and more profitable.
+              </p>
+            </div>
+
+            {/* Bullet Points */}
+            <div className="space-y-6">
+              {bulletPoints.map((point, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
+                  transition={{ duration: 0.6, delay: 0.4 + (index * 0.1) }}
+                  className="flex items-start space-x-4 group"
+                >
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <point.icon className="w-5 h-5 text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-gray-700 leading-relaxed font-medium">
+                      {point.text}
+                    </p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>
