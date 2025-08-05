@@ -59,7 +59,7 @@ const features = [
   {
     icon: Settings,
     title: 'Workflow Optimization',
-    description: 'Customizable workflows, task automation, and process optimization tools for maximum efficiency.',
+    description: 'Run Smoother. Work Faster. Stress Less. Automate boring tasks, set up smart job templates, and make your team 2x more efficient overnight.',
     color: 'from-slate-500 to-slate-600'
   }
 ];
