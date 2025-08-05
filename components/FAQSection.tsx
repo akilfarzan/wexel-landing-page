@@ -13,7 +13,7 @@ import {
 const faqs = [
   {
     question: "Considering it's completely customised, do I have to pay a build cost?",
-    answer: "There is NO build fee for your Wexel workshop software. We are the only software business in Australia that custom creates a complete workshop software for their customers. We work on a subscription basis of $159.99/month + GST. Unlike other workshop softwares, we completely customise the logic, workflows, automations and most importantly AI integration into our softwares. This requires a lot of processing power to maintain optimally."
+    answer: "Nope — there’s absolutely no setup or build fee. Wexel is the only workshop software in Australia that fully custom-builds your system to suit your workflow — and we include that as part of your monthly subscription. We design everything around how you operate — from job card logic and workflow automation to AI integrations and customer comms. That level of customisation requires advanced processing and backend power, which is why our plan is $159.99/month + GST. There’s no upfront cost. No hidden charges. Just a system that fits your workshop like a glove — built and maintained for you."
   },
   {
     question: "Will Wexel integrate with my existing accounting software?",
