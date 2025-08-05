@@ -31,7 +31,7 @@ const integrationLogos = [
   },
   {
     name: 'TireConnect',
-    src: 'https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/tireconnect.png',
     alt: 'TireConnect Integration'
   },
   {
