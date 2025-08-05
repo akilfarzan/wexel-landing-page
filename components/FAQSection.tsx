@@ -36,8 +36,8 @@ const faqs = [
     answer: "Yes! Wexel works perfectly on any device - desktop, tablet, or smartphone. Our mobile apps for iOS and Android let you manage jobs, update customers, and track progress from anywhere in your workshop or on the road. Everything syncs in real-time across all devices."
   },
   {
-    question: "What kind of support do you provide?",
-    answer: "We provide comprehensive support including phone, email, and live chat during business hours. You'll also get access to our knowledge base, video tutorials, and regular training webinars. For Enterprise customers, we provide dedicated account management and priority support."
+    question: "Is there any lock-in contract?",
+    answer: "Nope. You can cancel anytime. Try Wexel risk-free with our 30-day money-back guarantee."
   },
   {
     question: "What if Wexel doesn't work for my specific type of workshop?",
