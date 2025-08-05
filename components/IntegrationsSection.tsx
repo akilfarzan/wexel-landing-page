@@ -26,7 +26,7 @@ const integrationLogos = [
   },
   {
     name: 'Burson',
-    src: 'https://images.pexels.com/photos/190574/pexels-photo-190574.jpg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
+    src: '/bursonautoparts.png',
     alt: 'Burson Auto Parts Integration'
   },
   {
