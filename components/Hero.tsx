@@ -109,7 +109,7 @@ export default function Hero() {
               size="lg" 
               className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-8 py-4 text-lg"
             >
-              30-Day Money Back
+              30-Day Money Back Guaranteed!
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 
@@ -138,7 +138,7 @@ export default function Hero() {
               <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full mb-2">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <div className="text-2xl font-bold text-gray-900">10x</div>
+              <div className="text-2xl font-bold text-gray-900">10x Faster Admin — Seriously</div>
               <div className="text-sm text-gray-600">Faster Admin</div>
             </div>
             <div className="flex flex-col items-center">
