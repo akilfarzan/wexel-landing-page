@@ -16,8 +16,8 @@ const faqs = [
     answer: "Nope — there’s absolutely no setup or build fee. Wexel is the only workshop software in Australia that fully custom-builds your system to suit your workflow — and we include that as part of your monthly subscription. We design everything around how you operate — from job card logic and workflow automation to AI integrations and customer comms. That level of customisation requires advanced processing and backend power, which is why our plan is $159.99/month + GST. There’s no upfront cost. Just a system that fits your workshop like a glove — built and maintained for you."
   },
   {
-    question: "Will Wexel integrate with my existing accounting software?",
-    answer: "Yes! Wexel seamlessly integrates with popular accounting platforms including Xero, MYOB, and QuickBooks. Your invoices, payments, and financial data sync automatically, eliminating double-entry and ensuring your books are always up to date."
+    question: "How many times can I customise this workshop?",
+    answer: "For intial set up and build, there is ZERO fee. However, if there are subsequent changes down the line to the logic, workflow, forms, integrations etc. We do charge extra for that, and that depends on the extent of the added work. "
   },
   {
     question: "What happens to my existing customer and job data?",
