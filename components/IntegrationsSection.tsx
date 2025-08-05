@@ -90,7 +90,7 @@ export default function IntegrationsSection() {
             {[...integrationLogos, ...integrationLogos].map((logo, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-auto h-[100px] mr-8 group relative"
+                className="flex-shrink-0 w-auto h-auto mr-8 group relative"
               >
                 <div className="h-full bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center justify-center p-4">
                   <img
