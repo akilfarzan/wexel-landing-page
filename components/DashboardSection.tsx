@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Search, Brain, DollarSign, FileText, Clock, TextCursor as Cursor } from 'lucide-react';
-import { ImageDialog } from '@/components/ui/image-dialog';
+import { Search, Brain, DollarSign, FileText, Clock, TextCursor } from 'lucide-react';
 import { ImageDialog } from '@/components/ui/image-dialog';
 
 export default function DashboardSection() {
@@ -60,19 +59,7 @@ export default function DashboardSection() {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
-                      <Cursor className="w-6 h-6 text-gray-700" />
-                    </div>
-                  </div>
-                </div>
-              </ImageDialog>
-                  <img
-                    src="/Inventory tracking.PNG"
-                    alt="Wexel Dashboard showing real-time analytics and stock management"
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
-                      <Cursor className="w-6 h-6 text-gray-700" />
+                      <TextCursor className="w-6 h-6 text-gray-700" />
                     </div>
                   </div>
                 </div>
@@ -121,11 +108,6 @@ export default function DashboardSection() {
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-sm text-gray-600 italic mt-4 text-center"
-            >
-              💥 It's like having your stock controller, purchasing assistant, and bookkeeper — all rolled into one.
-            </motion.p>
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-sm text-gray-600 italic mt-4 text-center"
             >

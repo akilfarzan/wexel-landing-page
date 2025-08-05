@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Settings, Wrench, Users, TextCursor as Cursor } from 'lucide-react';
 import { ImageDialog } from '@/components/ui/image-dialog';
-import { ImageDialog } from '@/components/ui/image-dialog';
 
 const subheadings = [
   {
@@ -116,19 +115,7 @@ export default function CustomizationSection() {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
-                      <Cursor className="w-6 h-6 text-gray-700" />
-                    </div>
-                  </div>
-                </div>
-              </ImageDialog>
-                  <img
-                    src="/Wexel solution.png"
-                    alt="Modern workshop with advanced technology and tools"
-                    className="w-full h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
-                      <Cursor className="w-6 h-6 text-gray-700" />
+                      <TextCursor className="w-6 h-6 text-gray-700" />
                     </div>
                   </div>
                 </div>
