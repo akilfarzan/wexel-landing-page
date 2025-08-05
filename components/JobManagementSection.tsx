@@ -44,7 +44,7 @@ export default function JobManagementSection() {
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.6 }}
-            className="space-y-8"
+            className="space-y-8 lg:col-span-1"
           >
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -87,7 +87,7 @@ export default function JobManagementSection() {
             initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative"
+            className="relative lg:col-span-1"
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <ImageDialog
@@ -96,7 +96,7 @@ export default function JobManagementSection() {
               >
                 <div className="cursor-pointer group">
                   <img
-                    src="/section.inspect-element-1754376989310.jpeg"
+                    src="/Job managment.PNG"
                     alt="Wexel Job Management Dashboard showing live job cards and workflow status"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
