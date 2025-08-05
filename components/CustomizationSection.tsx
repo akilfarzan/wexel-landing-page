@@ -111,7 +111,7 @@ export default function CustomizationSection() {
                   <img
                     src="/Wexel solution.png"
                     alt="Modern workshop with advanced technology and tools"
-                    className="w-full h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   {/* Overlay gradient */}
                   <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent" />
