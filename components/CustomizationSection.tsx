@@ -126,7 +126,7 @@ export default function CustomizationSection() {
                   {/* Floating elements */}
                   <motion.div
                     animate={{
-                      y: [0, -10, 0],
+                      y: [0, -10, 0],bg-white
                     }}
                     transition={{
                       duration: 3,
