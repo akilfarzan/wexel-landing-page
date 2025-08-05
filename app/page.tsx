@@ -30,8 +30,8 @@ export default function Home() {
       <JobManagementSection />
       <DashboardSection />
       <IntegrationsSection />
-      <CustomerManagementSection />
       <TransitionSection />
+      <CustomerManagementSection />
       <Pricing />
       <CTA />
       <Footer />
