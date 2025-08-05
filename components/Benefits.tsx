@@ -125,7 +125,7 @@ export default function Benefits() {
               {/* After */}
               <div className="group relative">
                 <div className="h-full p-6 bg-white rounded-2xl shadow-lg border-2 border-green-100 hover:shadow-xl transition-all duration-300 hover:border-green-200">
-                  <div className="flex items-start space-x-4">
+                  <div className="flex items-start space-x-2 sm:space-x-4">
                     <div className="flex-shrink-0 inline-flex items-center justify-center w-8 h-8 bg-green-100 rounded-full">
                       <Check className="w-4 h-4 text-green-600" />
                     </div>
