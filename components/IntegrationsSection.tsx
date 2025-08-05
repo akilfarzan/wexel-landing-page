@@ -40,7 +40,7 @@ const integrationLogos = [
     alt: 'SMS Gateway Integration'
   },
   {
-    name: 'Outlook Integration',
+    name: 'Outlook',
     src: '/outlook-logo.png',
     alt: 'Email Service Integration'
   },
