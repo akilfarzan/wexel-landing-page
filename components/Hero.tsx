@@ -118,7 +118,7 @@ export default function Hero() {
               className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg"
             >
               <Play className="mr-2 w-5 h-5" />
-              Watch 2-min Demo (coming soon)
+              Start Today!
             </Button>
           </motion.div>
 
