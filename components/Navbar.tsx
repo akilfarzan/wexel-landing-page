@@ -39,7 +39,7 @@ export default function Navbar() {
             <img
               src="/logo.gif"
               alt="Wexel Logo"
-              className="h-10 w-auto"
+              className="h-auto w-auto"
             />
           </div>
 
