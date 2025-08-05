@@ -25,7 +25,7 @@ export default function Home() {
       <Hero />
       <MissionStatement />
       <Features />
-      <Benefits />
+
       <CustomizationSection />
       <JobManagementSection />
       <DashboardSection />
@@ -33,6 +33,7 @@ export default function Home() {
       <TransitionSection />
       <CustomerManagementSection />
       <Pricing />
+            <Benefits />
       <CTA />
       <Footer />
     </main>
