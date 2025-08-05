@@ -33,7 +33,7 @@ export default function Home() {
       <TransitionSection />
       <CustomerManagementSection />
       <Pricing />
-            <Benefits />
+      <Benefits />
       <CTA />
       <Footer />
     </main>
