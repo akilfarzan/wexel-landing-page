@@ -146,7 +146,7 @@ export default function Hero() {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <div className="text-2xl font-bold text-gray-900">Zero Headaches</div>
-              <div className="text-sm text-gray-600">No more chasing lost jobs or missing records.</div>
+              <div className="text-sm text-gray-600">Everything is tracked. Nothing gets lost. No more late nights.</div>
             </div>
           </motion.div>
         </motion.div>
