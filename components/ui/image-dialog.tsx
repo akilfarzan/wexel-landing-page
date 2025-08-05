@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dialog, DialogContent, DialogTrigger, DialogTitle } from '@radix-ui/react-dialog';
+import { Dialog, DialogContent, DialogTrigger, DialogTitle } from '@/components/ui/dialog';
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 import { X } from 'lucide-react';
 
