@@ -1,18 +1,22 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ArrowRight, Smartphone, Shield, Headphones } from 'lucide-react';
+import { Wrench, Smartphone, Shield, Headphones } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import ContactForm from '@/components/ContactForm';
 
 export default function CTA() {
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false);
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-purple-900 relative overflow-hidden">
+    <>
+      <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-purple-900 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:4rem_4rem]" />
       
@@ -53,30 +57,24 @@ export default function CTA() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Ready to Transform
+            Transform Your Workshop Into
             <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
-              Your Workshop?
+              A Profit Machine
             </span>
           </h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-            Join 10,000+ workshop owners who have revolutionized their business with Wexel. 
-            Start your free trial today and see results within days.
+            Stop losing money on admin work, missed calls, and disorganized workflows. 
+            Let Wexel's AI handle the boring stuff while you focus on what you do best.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex justify-center items-center mb-12">
             <Button 
+              onClick={() => setIsContactFormOpen(true)}
               size="lg" 
-              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-8 py-4 text-lg"
+              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 px-12 py-6 text-xl font-bold"
             >
-              Start Your Free Trial
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-white/20 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg"
-            >
-              Schedule Demo
+              <Wrench className="mr-3 w-6 h-6" />
+              Build Your Wexel Workshop Now
             </Button>
           </div>
 
@@ -123,6 +121,12 @@ export default function CTA() {
           </div>
         </motion.div>
       </div>
-    </section>
+      </section>
+      
+      <ContactForm 
+        isOpen={isContactFormOpen} 
+        onClose={() => setIsContactFormOpen(false)} 
+      />
+    </>
   );
 }
