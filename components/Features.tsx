@@ -10,7 +10,11 @@ import {
   Mail, 
   MessageSquare, 
   FileText, 
-  Settings 
+  Settings,
+  PhoneCall,
+  Wrench,
+  Link,
+  Brain
 } from 'lucide-react';
 
 const features = [
@@ -61,6 +65,30 @@ const features = [
     title: 'Workflow Optimization',
     description: 'Run Smoother. Work Faster. Stress Less. Automate boring tasks, set up smart job templates, and make your team 2x more efficient overnight.',
     color: 'from-slate-500 to-slate-600'
+  },
+  {
+    icon: PhoneCall,
+    title: 'AI Calling Assistant',
+    description: 'Wexel Calls Your Customers So You Don\'t Have To. Our AI agent confirms pickups, reminds customers, and handles no-shows — while you stay in the bay.',
+    color: 'from-red-500 to-red-600'
+  },
+  {
+    icon: Wrench,
+    title: 'Job Templates & Service Kits',
+    description: 'No More Rewriting the Same Job Again and Again. Save prebuilt job card layouts like "Logbook Service" or "Brake Replacement" — apply with 1 click.',
+    color: 'from-yellow-500 to-yellow-600'
+  },
+  {
+    icon: Link,
+    title: 'Integrations Galore',
+    description: 'Connects to What You Already Use — Instantly. Integrate your favourite stack, right into Wexel. Whether it be MYOB, Xero, Repco, Burson Ezy Parts, TireConnect we will add it. From invoicing and stock reorders to automated SMS and emails — everything flows together.',
+    color: 'from-cyan-500 to-cyan-600'
+  },
+  {
+    icon: Brain,
+    title: 'Predictive Maintenance (AI)',
+    description: 'Wexel Tells You What\'s Coming — Before It Breaks. Your AI will spot trends and upcoming service needs based on job history. That means more upsells. Happier customers.',
+    color: 'from-lime-500 to-lime-600'
   }
 ];
 
