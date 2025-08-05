@@ -28,6 +28,10 @@ const faqs = [
     answer: "We will ensure that the current stack you work with is seamlessly integrated into your Wexel workshop. If there's an API, we can connect it. No Stress!"
   },
   {
+    question: "What if you don't have a software that I currently work with for integration options?",
+    answer: "We will ensure that the current stack you work with is seamlessly integrated into your Wexel workshop. If there's an API, we can connect it. No Stress!"
+  },
+  {
     question: "Is my workshop data secure and backed up?",
     answer: "Absolutely. We use bank-level 256-bit encryption and store your data across multiple secure data centers in Australia. Your information is automatically backed up multiple times daily, and we maintain 99.9% uptime. You own your data and can export it anytime."
   },
