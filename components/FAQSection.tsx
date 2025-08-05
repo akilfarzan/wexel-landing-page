@@ -24,7 +24,7 @@ const faqs = [
     answer: "We make data migration painless. Our team will help you import all your existing customer records, vehicle histories, and job data from spreadsheets, other software, or paper records. Nothing gets lost in the transition, and you'll have access to complete historical data from day one."
   },
   {
-    question: "How does",
+    question: "What if you don't have a software that I currently work with for integration options?",
     answer: "Wexel's AI learns from your workshop patterns and automates routine tasks. It can automatically send pickup reminders, follow up on overdue invoices, predict maintenance needs based on vehicle history, and even handle basic customer inquiries via phone or SMS. The AI gets smarter over time, adapting to your specific business needs."
   },
   {
