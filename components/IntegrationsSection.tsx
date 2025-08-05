@@ -37,7 +37,7 @@ const integrationLogos = [
   {
     name: 'VV Garage',
     src: '/vvgarage.png',
-    alt: 'SMS Gateway Integration'
+    alt: 'VV Garage Integration'
   },
   {
     name: 'Outlook',
