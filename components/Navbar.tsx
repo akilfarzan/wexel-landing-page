@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <img
-              src="/logo.gif"
+              src="/Wexel Logo.png"
               alt="Wexel Logo"
               className="h-20 w-auto"
             />
