@@ -91,7 +91,7 @@ export default function JobManagementSection() {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <ImageDialog
-                src="/section.inspect-element-1754376989310.jpeg"
+                src="/Job managment.PNG"
                 alt="Wexel Job Management Dashboard showing live job cards and workflow status"
               >
                 <div className="cursor-pointer group">
