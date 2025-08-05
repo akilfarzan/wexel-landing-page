@@ -54,7 +54,7 @@ export default function DashboardSection() {
               <img
                 src="/Inventory tracking.PNG"
                 alt="Wexel Dashboard showing real-time analytics and stock management"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
               
               {/* Overlay gradient */}
