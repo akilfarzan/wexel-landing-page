@@ -13,7 +13,7 @@ import {
 const faqs = [
   {
     question: "Considering it's completely customised, do I have to pay a build cost?",
-    answer: "Nope — there’s absolutely no setup or build fee. Wexel is the only workshop software in Australia that fully custom-builds your system to suit your workflow — and we include that as part of your monthly subscription. We design everything around how you operate — from job card logic and workflow automation to AI integrations and customer comms. That level of customisation requires advanced processing and backend power, which is why our plan is $159.99/month + GST. There's no build fee but we do require the first month's subscription fee to be paid, and after the final product is delivered, the billing starts. Just a system that fits your workshop like a glove — built and maintained for you."
+    answer: "Due to the immense service that we are providing with complete form customisation, AI integration, logic customisation and more. We require the first month's subscription fee to be paid up-front. However, billing doesn't start till the product has been delivered and you are happy with the product.  We design everything around how you operate — from job card logic and workflow automation to AI integrations and customer comms. That level of customisation requires advanced processing and backend power, which is why our plan is $159.99/month + GST. There's no build fee but we do require the first month's subscription fee to be paid, and after the final product is delivered, the billing starts. Just a system that fits your workshop like a glove — built and maintained for you."
   },
   {
     question: "How many times can I customise this workshop?",
