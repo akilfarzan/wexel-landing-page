@@ -29,7 +29,7 @@ const features = [
   {
     icon: BarChart3,
     title: 'Intelligent Analytics',
-    description: 'Real-time dashboards with revenue insights, job completion rates, and performance metrics that drive growth.',
+    description: 'Turn Your Workshop Into a Profit Machine. See what jobs make you the most money, where time is lost, and how to run leaner. Wexel gives you clarity that boosts margins.',
     color: 'from-teal-500 to-teal-600'
   },
   {
