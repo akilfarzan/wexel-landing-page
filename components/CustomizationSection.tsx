@@ -104,7 +104,7 @@ export default function CustomizationSection() {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <ImageDialog
-                src="/Wexel solution.png"
+                src="/wex solution.png"
                 alt="Wexel customizable workshop solution interface"
               >
                 <div className="cursor-pointer group">
