@@ -172,7 +172,7 @@ export default function CustomerManagementSection() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="text-sm text-gray-600 italic mt-6 text-center"
             >
-              "We knew what car they drove, when we last saw them, and what we serviced — before they even walked in."
+              We knew what car they drove, when we last saw them, and what we serviced — before they even walked in.
             </motion.p>
           </motion.div>
         </div>
