@@ -97,7 +97,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-           The most advanced, custom-built workshop software that runs like a fine tuned engine.
+           The most advanced, custom-built, AI powered workshop software that runs like a fine tuned engine.
             Built for your workshop. Powered by AI. Ready to save time and cut costs.
           </motion.p>
 
