@@ -78,7 +78,7 @@ export default function Hero() {
                 <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
               ))}
             </div>
-            <span className="text-sm text-gray-600">Your All-in-One Admin, Stock Controller and Invoice Generator</span>
+            <span className="text-sm text-gray-600">Australia's Fastest Rising Workshop Management Software</span>
           </motion.div>
 
           {/* Main Headline */}
