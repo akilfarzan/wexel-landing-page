@@ -35,7 +35,7 @@ const integrationLogos = [
     alt: 'TireConnect Integration'
   },
   {
-    name: 'SMS Gateway',
+    name: 'VV Garage',
     src: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop',
     alt: 'SMS Gateway Integration'
   },
