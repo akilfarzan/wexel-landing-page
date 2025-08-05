@@ -78,7 +78,7 @@ export default function Hero() {
                 <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
               ))}
             </div>
-            <span className="text-sm text-gray-600">Trusted by 10,000+ workshops</span>
+            <span className="text-sm text-gray-600">All-in-One Admin, Stock Controller and </span>
           </motion.div>
 
           {/* Main Headline */}
