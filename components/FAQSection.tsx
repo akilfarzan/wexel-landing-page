@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     question: "How many times can I customise this workshop?",
-    answer: "For intial set up and build, there is ZERO fee. However, if there are subsequent changes down the line to the logic, workflow, forms, integrations etc. We do charge extra for that, and that depends on the extent of the added work. "
+    answer: "For intial set up and build, there is ZERO fee. However, if there are subsequent changes down the line to the logic, workflow, forms, integrations etc. We do charge extra for that, and that depends on the extent of the added work."
   },
   {
     question: "What happens to my existing customer and job data?",
