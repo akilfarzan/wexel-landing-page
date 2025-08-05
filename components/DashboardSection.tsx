@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Search, Brain, DollarSign, FileText, Clock, TextCursor as Cursor } from 'lucide-react';
 import { ImageDialog } from '@/components/ui/image-dialog';
+import { ImageDialog } from '@/components/ui/image-dialog';
 
 export default function DashboardSection() {
   const [ref, inView] = useInView({
@@ -52,6 +53,18 @@ export default function DashboardSection() {
                 alt="Wexel Dashboard showing real-time analytics and stock management"
               >
                 <div className="cursor-pointer group">
+                  <img
+                    src="/Inventory tracking.PNG"
+                    alt="Wexel Dashboard showing real-time analytics and stock management"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3">
+                      <Cursor className="w-6 h-6 text-gray-700" />
+                    </div>
+                  </div>
+                </div>
+              </ImageDialog>
                   <img
                     src="/Inventory tracking.PNG"
                     alt="Wexel Dashboard showing real-time analytics and stock management"
@@ -113,6 +126,11 @@ export default function DashboardSection() {
             >
               💥 It's like having your stock controller, purchasing assistant, and bookkeeper — all rolled into one.
             </motion.p>
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="text-sm text-gray-600 italic mt-4 text-center"
+            >
+              💥 It's like having your stock controller, purchasing assistant, and bookkeeper — all rolled into one.
+            </motion.p>
           </motion.div>
 
           {/* Text Content */}
@@ -145,7 +163,7 @@ export default function DashboardSection() {
                   transition={{ duration: 0.6, delay: 0.4 + (index * 0.1) }}
                   className="flex items-start space-x-4 group"
                 >
-                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                     <point.icon className="w-5 h-5 text-white" />
                   </div>
                   <div className="flex-1">

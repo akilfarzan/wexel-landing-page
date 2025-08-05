@@ -1,6 +1,5 @@
-'use client';
-
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import React from 'react';
+import * as Dialog from '@radix-ui/react-dialog';
 import { X } from 'lucide-react';
 
 interface ImageDialogProps {
@@ -11,19 +10,25 @@ interface ImageDialogProps {
 
 export function ImageDialog({ src, alt, children }: ImageDialogProps) {
   return (
-    <Dialog>
-      <DialogTrigger asChild>
+    <Dialog.Root>
+      <Dialog.Trigger asChild>
         {children}
-      </DialogTrigger>
-      <DialogContent className="max-w-4xl w-full p-0 bg-transparent border-none">
-        <div className="relative">
-          <img
-            src={src}
-            alt={alt}
-            className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
-          />
-        </div>
-      </DialogContent>
-    </Dialog>
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Dialog.Overlay className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50" />
+        <Dialog.Content className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-50 max-w-[90vw] max-h-[90vh] p-4">
+          <div className="relative">
+            <img
+              src={src}
+              alt={alt}
+              className="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl"
+            />
+            <Dialog.Close className="absolute -top-2 -right-2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors">
+              <X className="w-4 h-4" />
+            </Dialog.Close>
+          </div>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
   );
 }
