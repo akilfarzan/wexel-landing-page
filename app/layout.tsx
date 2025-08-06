@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Wexel - Advanced Workshop CRM Software | Job Card & Customer Management',
+  title: 'Wexel - AI Powered Workshop Software',
   description: 'Transform your workshop with Wexel\'s powerful CRM software. Streamline job cards, manage customers, leverage AI automations, and integrate email, SMS & invoicing. Try free today.',
   keywords: 'workshop CRM, job card management, customer management, automotive CRM, workshop software, AI automation, invoice integration, SMS marketing',
   authors: [{ name: 'Wexel' }],
